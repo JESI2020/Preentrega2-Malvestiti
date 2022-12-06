@@ -1,0 +1,269 @@
+body{  background-color: rgba (255, 255, 255);
+   padding: 0;
+   margin:0;
+    
+}
+
+
+.nav { background-color: rgb(213, 230, 213);
+                  
+}
+
+
+
+
+
+
+   
+   
+
+.contenedor-inicio { display: grid;
+   background-image:url(imagenes/fondo.png);
+   background-repeat: no-repeat;
+   background-size:cover;
+   display: flex;
+   min-height: 100vh;  
+   background-position: right;
+}
+
+.inicio {display:grid;
+   grid-template-columns: auto auto;
+   margin-top: 10em;
+   margin-left: 10em;
+   
+
+}
+
+
+.inicio-redes i {display: block;
+  margin: 8px;
+  color: white;
+  font-size: 2em;
+  
+}
+
+.inicio-logo {  height: 200px;
+   
+    }
+
+
+
+
+
+
+
+
+
+.texto-portfolio {font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+
+}
+
+.contenedor-portfolio { display: flex;
+   padding: 5px;
+   flex-wrap: wrap;
+}
+
+.columna {flex: 25%;
+   padding: 5PX;
+
+}
+
+.columna img {
+   margin-top: 5px;
+
+}
+
+.contenedor-portfolio img {width: 400px;
+   
+}
+
+
+
+
+
+
+.contenedor-nosotros {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   display: grid;
+   grid-template-columns: auto auto;
+   margin: 0;
+   
+}
+
+.contenedor-nosotros-imagen { width: 100hv;
+   margin-right: 0;
+   }
+
+
+   .texto-cuerpo { margin: 30px;
+      line-height: 2em;
+      font-size: 1,5em;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      
+   }
+   
+   .texto-titulo { 
+      padding:20px;
+      text-align: center;
+   
+   }
+
+
+
+.form { width: 300px;
+   margin: 0 auto;
+   background-color: rgb(146, 206, 146);
+   padding: 20px;
+   margin: auto;
+   border-radius: 3px;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   text-align: center;
+   color: rgb(70, 67, 67);
+   
+   
+}
+
+
+
+
+
+
+.contenedor-servicios {text-align: center;
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 10px;
+   
+}
+.contenedor-imagenes {
+display: flex;
+flex-wrap: wrap;
+width: 90%;
+margin: auto;
+justify-content: center;
+gap: 30px;
+margin-bottom: 50px;
+
+}
+
+.contenedor-imagenes-texto img {height: 250px;
+   border-radius: 5px;
+   box-shadow: 5px 12px 12px black;
+   
+}
+
+.texto-caja h2 {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 30px;
+   color: whitesmoke;
+   text-shadow: 2px 3px black;
+   text-shadow: 0 0 8 rgba(0, 0, 0, 0.8);
+   cursor:pointer;
+   transition: all 0.5s;
+  
+   } 
+
+
+.texto-caja h2:hover {color: rgb(181, 184, 181);
+
+}
+
+
+
+.contenedor-contacto {
+   font-family:Verdana, Geneva, Tahoma, sans-serif;
+   max-width: 1200px;
+   display: flex;
+   margin: 0px;
+
+
+}
+
+
+.mandala2 { width: 100hv;
+margin-left: 0;
+}
+
+
+
+
+
+
+
+.input, .bottom, .input-mensaje {
+   margin: 10px;
+   outline: none;
+   padding: 10px;
+   width: 255px;
+   }
+
+.bottom {cursor: pointer;}
+
+
+
+
+
+
+
+
+footer { background-color: rgb(213, 230, 213);
+   height: 2em;
+   width: 100%;
+   align-self: flex-end;
+   max-height: 600px;
+   display: flex;
+   justify-content: center;
+   align-content: center;
+}
+
+ .copy { font-family:Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 15px;
+      
+ }
+
+
+
+ 
+
+ @media (max-width: 800px) {
+   .columna {flex: 100%; }
+   
+
+   .contenedor-imagenes {display: flex;
+        flex-wrap: wrap;
+    
+    
+   }
+
+   .contenedor-contacto {display: flex;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      margin-top: 2em;}
+
+   .imagen-contacto { transform: rotate(-90deg);}  
+
+   .contenedor-nosotros {
+      display: flex;
+      flex-wrap: wrap;}
+
+   .contenedor-imagen {
+      transform: rotate(90deg);}
+
+   .contenedor-inicio {background-size: cover; 
+     height: 100%;}
+  
+     .inicio {margin-left: 1em;}
+
+     }
+
+   
+
+     
+   
+   
+  
+
+
+
+
+
+ 
